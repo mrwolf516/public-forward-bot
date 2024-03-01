@@ -1,5 +1,5 @@
-from pyrogram import Client, __version__
-pyrogram==2.0.59
+from pyrogram import Client
+
 from config import Config
 from config import LOGGER
 
