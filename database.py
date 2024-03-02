@@ -1,3 +1,4 @@
+from pyromod import 
 from pymongo import DuplicateKeyError
 from umongo import Instance, Document, fields
 from motor import AsyncIOMotorClient
