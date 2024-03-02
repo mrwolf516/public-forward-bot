@@ -4,5 +4,5 @@ umongo==2.3.0
 motor==2.3.0
 pytz
 pymongo
-pyromod==1.5
+pyromod==3.1.5
 
