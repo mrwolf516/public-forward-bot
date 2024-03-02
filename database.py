@@ -1,6 +1,6 @@
-from pymongo.errors import DuplicateKeyError
+from pymongo import DuplicateKeyError
 from umongo import Instance, Document, fields
-from motor.motor import AsyncIOMotorClient
+from motor import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
 from config import Config
 DATABASE_URI, DATABASE_NAME, COLLECTION_NAME = Config.DATABASE_URI, Config.DATABASE_NAME, Config.COLLECTION_NAME
