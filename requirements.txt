@@ -5,3 +5,4 @@ motor==2.3.0
 pytz
 pymongo
 pyrogram==2.0.106
+pyromod
